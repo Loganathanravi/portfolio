@@ -10,7 +10,7 @@ import {
 import React from "react";
 import { FaGithub } from 'react-icons/fa';
 import { BiLogoGmail } from 'react-icons/bi';
-
+import  "./Navbar.css"
 const StyledToolbar = styled(Toolbar)({
   display: "flex",
   justifyContent: "space-between",
@@ -26,6 +26,9 @@ const NavBar = () => {
   };
 
   return (
+     <div>
+
+    
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h5">Portfolio</Typography>
@@ -44,6 +47,8 @@ const NavBar = () => {
         </Box>
       </StyledToolbar>
     </AppBar>
+   
+    </div>
   );
 };
 
