@@ -3,7 +3,8 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-         rygbuzgg3ryfgy3f
+       <ul>E-mail: loganathanr7010@gmail.com</ul>
+       <ul>Mobile no: 6385274176</ul>
     </div>
   )
 }
