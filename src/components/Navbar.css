@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+
+
+
 .List{
-  width:30% ;
-  padding: 2px;
-  font-family: 'Poppins', sans-serif;
+  width:20% ;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;  
+
 }
 p > *{
   text-decoration: none;
+}
+
+.port{
+  font-family: 'Kanit', sans-serif;
 }
