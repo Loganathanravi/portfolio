@@ -15,7 +15,9 @@ function App() {
     { path: "/", element: <Home />,children:[
        
       {path:"/",element:<TourCard/>},
-      {path:"/skills",element:<Skills/>},
+ 
+       {path:"/skills",element:<Skills/>},
+  
       {path:"/projects",element:<Projects/>},
       {path:"/contact",element:<Contact/>},
       

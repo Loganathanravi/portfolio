@@ -2,9 +2,9 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>
+    <div className='Contact'>
        <ul>E-mail: loganathanr7010@gmail.com</ul>
-       <ul>Mobile no: 6385274176vtuvtf8vtr8vtrv</ul>
+       <ul>Mobile no: 6385274176 / 9345720873</ul>
     </div>
   )
 }

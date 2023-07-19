@@ -10,21 +10,23 @@ import React from "react";
 
 const TourCard = () => {
   return (
-    <Card sx={{ maxWidth: 750,marginLeft:"120px" }}>
+    <Card sx={{ maxWidth: 750, marginTop: "-20px"}}>
+
       <CardHeader />
       <CardMedia
         component="img"
-        height="300"
+        height="270"
         image={require("../assets/1.jpg")}
         alt="pic"
       />
-      <CardContent>
-        <Typography>
-          Hi this skfjhewiuhcgirg gehcgiulmcehiugth4eg
-          esgrhyngefygw4gciwgcrtghcbrhcbg yegryunegtxhgrhmgx
-          esjxhfjesgnfylxgnehbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-          hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhheeeeeeeeeeeeeeeeeeeeeee
-          eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeee
+      <CardContent >
+        <Typography sx={{ margin: "20px" }} >
+           <div className="typo" >
+               Welcome to my portfolio! I'm a specializing in creating beautiful and user-
+               friendly websites.
+               I transform design concepts into responsive, interactive experiences.Explore my projects showcasing captivating visuals,and intuitive user interactions.
+               Thank you for visiting, and I look forward to connecting with you.
+             </div>
         </Typography>
       </CardContent>
     </Card>

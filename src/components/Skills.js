@@ -8,7 +8,7 @@ import { BsGithub } from 'react-icons/bs';
 
 function Skills() {
   return (
-    <div>
+    <div className='Skills'>
       <ul>
         <FaHtml5 style={{ marginRight: '0.5em',color:"orange" }} />
         <span>Html</span>
@@ -21,13 +21,14 @@ function Skills() {
         <BiLogoJavascript style={{ marginRight: '0.5em',color:"yellow" }} />
         <span>Java Script</span>
       </ul>
-      <ul>
-        <FcTimeline style={{ marginRight: '0.5em' }} />
-        <span>Material Ui</span>
-      </ul>
+     
       <ul>
         <FaReact style={{ marginRight: '0.5em',color:"blue" }} />
         <span>React Js</span>
+      </ul>
+      <ul>
+        <FcTimeline style={{ marginRight: '0.5em' }} />
+        <span>Material Ui</span>
       </ul>
       <ul>
         <BsGithub style={{ marginRight: '0.5em',color:"black" }} />

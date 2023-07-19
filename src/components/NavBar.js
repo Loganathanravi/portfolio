@@ -31,7 +31,7 @@ const NavBar = () => {
     
     <AppBar position="sticky">
       <StyledToolbar>
-        <Typography variant="h5">Portfolio</Typography>
+           <Typography variant="h5" className="port" >Portfolio</Typography>  
         <Box sx={{display: "flex", alignItems: "center", gap: "20px"}}>
           <Badge color="secondary" badgeContent={0}>
             <a href="https://github.com/Loganathanravi" target="_blank" rel="noopener noreferrer">
@@ -43,7 +43,8 @@ const NavBar = () => {
               <BiLogoGmail sx={{marginRight: "1rem"}} fontSize="30px" color="red" onClick={handleEmailClick} />
             </a>
           </Badge>
-          <Avatar alt="Remy Sharp" src="https://i.pravatar.cc/300" />
+          <Avatar alt="Remy Sharp" src={require("./pic/logu pic new.jpg")} />
+
         </Box>
       </StyledToolbar>
     </AppBar>
