@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit&display=swap');
 
-
-
-
+.portt:hover{
+      color: black;
+}
 
 .List{
   width:20% ;
   padding: 0px;
-  font-family: 'Montserrat', sans-serif;  
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-size: larger;
 
 }
 p > *{
   text-decoration: none;
 }
 
-.port{
-  font-family: 'Kanit', sans-serif;
-}

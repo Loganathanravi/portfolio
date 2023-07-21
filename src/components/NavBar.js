@@ -31,7 +31,7 @@ const NavBar = () => {
     
     <AppBar position="sticky">
       <StyledToolbar>
-           <Typography variant="h5" className="port" >Portfolio</Typography>  
+    <Typography variant="h5" className="portt" >Portfolio</Typography> 
         <Box sx={{display: "flex", alignItems: "center", gap: "20px"}}>
           <Badge color="secondary" badgeContent={0}>
             <a href="https://github.com/Loganathanravi" target="_blank" rel="noopener noreferrer">
